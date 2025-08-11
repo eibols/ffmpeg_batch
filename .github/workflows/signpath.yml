@@ -32,8 +32,8 @@ jobs:
         name: "demo-application" 
         if-no-files-found: error
         path: |
-          .\FFBatch_AV_Converter_3.2.5_64bit_unsigned.exe
-          .\_BuildResult-unsigned\bom.xml
+          C:\Datos\Nextcloud\FFmpeg Batch\ffmpeg_batch-master\Releases\FFBatch_AV_Converter_3.2.5_64bit_unsigned.exe
+          C:\Datos\Nextcloud\FFmpeg Batch\ffmpeg_batch-master\Releases\bom.xml
 
     - name: sign
       uses: signpath/github-action-submit-signing-request@v1.1
@@ -46,7 +46,7 @@ jobs:
       with:
         api-token: '${{ secrets.SIGNPATH_API_TOKEN }}'
         organization-id: '${{ vars.SIGNPATH_ORGANIZATION_ID }}'
-        project-slug: 'Demo_Application'
+        project-slug: 'ffmpeg_batch'
         signing-policy-slug:  '${{ env.SIGNPATH_SIGNING_POLICY_SLUG }}'
         github-artifact-id:  "${{steps.upload-unsigned-artifact.outputs.artifact-id}}"
         wait-for-completion: true
@@ -55,6 +55,6 @@ jobs:
     - name: upload-signed-artifact
       uses: actions/upload-artifact@v4
       with:
-        name: "demo-application-signed" 
-        path: "demo-application-signed"
+        name: "FFBatch_AV_Converter_3.2.5_64bit_signed.exe" 
+        path: "application-signed"
         if-no-files-found: error
