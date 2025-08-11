@@ -19,11 +19,11 @@ jobs:
       with:
         fetch-depth: 0
 
-    # name: build
-    # run: ./src/Build.ps1
+    - name: build
+      run: ./src/Build.ps1
 
-    # name: create SBOM
-    #  run: ./sbom/Create-SBOM.ps1
+    - name: create SBOM
+      run: ./sbom/Create-SBOM.ps1
 
     - name: upload-unsigned-artifact
       id: upload-unsigned-artifact
@@ -32,8 +32,8 @@ jobs:
         name: "demo-application" 
         if-no-files-found: error
         path: |
-          C:\Datos\Nextcloud\FFmpeg Batch\ffmpeg_batch-master\Releases\FFBatch_AV_Converter_3.2.5_64bit_unsigned.exe
-          C:\Datos\Nextcloud\FFmpeg Batch\ffmpeg_batch-master\Releases\bom.xml
+          .\FFBatch_AV_Converter_64bit_unsigned.exe
+          .\bom.xml
 
     - name: sign
       uses: signpath/github-action-submit-signing-request@v1.1
@@ -55,6 +55,6 @@ jobs:
     - name: upload-signed-artifact
       uses: actions/upload-artifact@v4
       with:
-        name: "FFBatch_AV_Converter_3.2.5_64bit_signed.exe" 
+        name: "FFBatch_AV_Converter_64bit_signed.exe" 
         path: "application-signed"
         if-no-files-found: error
