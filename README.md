@@ -44,7 +44,8 @@ BTC: 394svDjYkfYtakt5L4Ce3whjpToPfYGej2
 
 [Donations](https://sourceforge.net/p/ffmpeg-batch/wiki/ffmpeg-batch/)
 
-![Buy me a coffee]([https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=ffbatch&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff])
+[Buy me a coffee]([https://sourceforge.net/p/ffmpeg-batch/wiki/ffmpeg-batch/](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=ffbatch&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff))
+
 <br/><br/><br/><br/>
 Available languages:
 
