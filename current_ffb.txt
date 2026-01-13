@@ -1,5 +1,5 @@
-3.2.6
-• Tested ffmpeg 8.0.
-• Fixed try button -> Copy to clipboard rare runtime error.
-• Added warning of missing deno.exe (JavaScript interpreter) soon required to download YouTube videos with yt-dlp.
-• Minor translation fix, youtube links time format fixed, yuv420p restored at images to video wizard.
+3.2.7
+• Added mka to multiplex tab containers, allowing multiple audio streams in a single audio file.
+• Added button to try yt-dlp download in console.
+• Fixed YouTube url streams displaying wrong items and now displaying streams including both video and audio.
+
