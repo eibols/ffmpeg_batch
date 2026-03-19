@@ -1,5 +1,7 @@
-3.2.7
-• Added mka to multiplex tab containers, allowing multiple audio streams in a single audio file.
-• Added button to try yt-dlp download in console.
-• Fixed YouTube url streams displaying wrong items and now displaying streams including both video and audio.
+3.2.8
+• Tested with ffmpeg.exe 8.1.
+• Fixed wizard parameter for hevc_amf (usage instead of preset), and fixed minor general wizard bug (duplicating video parameters).
+• Added yt-dlp session cookie browser selector, to allow downloading YouTube videos requiring user login (members only videos, etc).
+• Video downloading is now always attempted even if url validation displays errors.
+• yt-dl additional parameters field is now saved and used with Quick Download.
 
