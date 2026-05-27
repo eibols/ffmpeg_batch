@@ -1,7 +1,5 @@
-3.2.8
-• Tested with ffmpeg.exe 8.1.
-• Fixed wizard parameter for hevc_amf (usage instead of preset), and fixed minor general wizard bug (duplicating video parameters).
-• Added yt-dlp session cookie browser selector, to allow downloading YouTube videos requiring user login (members only videos, etc).
-• Video downloading is now always attempted even if url validation displays errors.
-• yt-dl additional parameters field is now saved and used with Quick Download.
-
+3.2.9
+• Tested with ffmpeg.exe 8.1.1
+• Added basic support for bluray protocol (Drag and drop drive, or Main File and context menu). (Input chapters not natively supported by ffmpeg).
+• Browser cookies selector used by Get YouTube streams button, to enable Premium streams selection.
+• Quick startup enabled by default, due to memory usage (some controls may display different, uncheck to get back to default style).
