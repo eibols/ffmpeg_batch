@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -2160,7 +2160,7 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>STREAM DI QUALITÀ DISPONIBILI SU YOUTUBE</value>
+    <value>QUALITA' STREAM DISPONIBILI SU YOUTUBE</value>
   </data>
   <data name="Column6.HeaderText" xml:space="preserve">
     <value>Usa</value>
