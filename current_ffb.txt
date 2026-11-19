@@ -1,5 +1,5 @@
-3.2.9
-• Tested with ffmpeg.exe 8.1.1
-• Added basic support for bluray protocol (Drag and drop drive, or Main File and context menu). (Input chapters not natively supported by ffmpeg).
-• Browser cookies selector used by Get YouTube streams button, to enable Premium streams selection.
-• Quick startup enabled by default, due to memory usage (some controls may display different, uncheck to get back to default style).
+3.3.0
+• Tested with ffmpeg.exe 9.0.2
+• Fixed several yt-dlp issue parsing and downloading YouTube playlists cosmetic message in video preset wizard.
+• Fixed a few erratic settings not preserved after installer updates. (From this version on. Current settings are at %localappdata%\Eibolsoft\user.config).
+• Fixed wrong message displayed during video preset wizard.
