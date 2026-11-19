@@ -1,5 +1,5 @@
 3.3.0
 • Tested with ffmpeg.exe 9.0.2
-• Fixed several yt-dlp issue parsing and downloading YouTube playlists cosmetic message in video preset wizard.
+• Fixed several yt-dlp issue parsing and downloading YouTube playlists.
 • Fixed a few erratic settings not preserved after installer updates. (From this version on. Current settings are at %localappdata%\Eibolsoft\user.config).
 • Fixed wrong message displayed during video preset wizard.
