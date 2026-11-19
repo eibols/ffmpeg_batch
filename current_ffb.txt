@@ -2,5 +2,5 @@
 • Tested with ffmpeg.exe 9.0.2
 • Fixed several yt-dlp issue parsing and downloading YouTube playlists.
 • Fixed a few erratic settings not preserved after installer updates. (From this version on. Current settings are at %localappdata%\Eibolsoft\user.config).
+• GPU decoders list pupulated on click.
 • Fixed wrong message displayed during video preset wizard.
-• GPU decoders list available on click.
